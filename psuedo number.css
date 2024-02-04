@@ -1,0 +1,13 @@
+/* input:in-range{
+    background-color: green;
+}
+input:out-of-range{
+    background-color: greenyellow;
+} */
+/* 
+input:valid{
+    background-color: brown;
+}
+input:invalid{
+    background-color: green;
+} */

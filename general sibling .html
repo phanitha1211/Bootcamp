@@ -1,0 +1,32 @@
+<!-- General Sibling Selector (~)
+The general sibling selector selects all elements that are next siblings of a specified element.
+
+The following example selects all <p> elements that are next siblings of <div> elements: 
+ -->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h2~p{
+                background-color: aqua;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <p> general sibling selector<p>
+            <h2> THis is heading 2 in div</h2>
+        </div>
+        <div>
+            <p> this is paragrapph in div</p>
+            <h2> This is heading 2 in div</h2>
+            <h2>This is heading 3 in div</h2>
+            <p>this is paragraph </p>
+        
+        
+        </div>
+    </body>
+</html>

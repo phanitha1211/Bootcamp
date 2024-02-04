@@ -1,0 +1,27 @@
+/* h1[target]{
+    background-color: yellow;
+} */
+
+/* h1[target="top"]{
+    background-color: red;
+} */
+/* 
+[target~="top"]{
+    background-color: pink;
+} */
+
+/* [target|="top"]{
+    background-color: aquamarine;
+} */
+
+/* [target^="top"]{
+    background-color: brown;
+} */
+
+/* [target$="top"]{
+    background-color: blanchedalmond;
+} */
+
+[target *="op"]{
+    color: blue;
+}

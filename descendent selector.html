@@ -1,0 +1,32 @@
+<!-- Descendant Selector
+    
+The descendant selector matches all elements that are descendants of a specified element.
+
+The following example selects all <p> elements inside <div> elements: 
+ -->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div p{
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <h2> descendent selector</h2>
+        <p> The descendent selector  matches all elememts taht are descendent of a specified element</p>
+        <div>
+            <p> This is paragraph in div</p>
+            <p> Tis is not in div</p>
+            <h2>
+                <p> this is paragraph</p>
+            </h2>
+            <div>
+                <h1> descendent selector</h1>
+            </div>
+        </div>
+    </body>
+</html>

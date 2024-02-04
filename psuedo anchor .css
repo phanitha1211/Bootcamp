@@ -1,0 +1,16 @@
+/* ul a{
+    color: red ;
+} */
+/* 
+ul a:hover{
+    background-color: red;
+    color: white;
+} */
+/* 
+ul a:active{
+    color: orange;
+} */
+
+ul a:visited{
+    color: pink;
+}

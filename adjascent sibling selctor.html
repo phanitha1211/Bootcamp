@@ -1,0 +1,28 @@
+<!-- Adjacent Sibling Selector (+)
+The adjacent sibling selector is used to select an element that is directly after another specific element.
+
+Sibling elements must have the same parent element, and "adjacent" means "immediately following".
+
+The following example selects the first <p> element that are placed immediately after <div> elements: -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h2+h1{
+                background-color: brown;
+            }
+        </style>
+    </head>
+    <body>
+        <h1> Adjascent selector</h1>
+        <div>
+            <p> this is paragraph</p>
+            <h2> Child selctor</h2>
+            <h1>child selector</h1>
+
+        </div>
+        <h2> combinator selctor</h2>
+        <h1>child selector</h1>
+    </body>
+</html>

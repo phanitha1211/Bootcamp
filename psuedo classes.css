@@ -1,0 +1,22 @@
+/* div p:first-child{
+    color: aqua;
+} */
+
+/* div p:last-child{
+    color: blue;
+} */
+/* 
+div p:nth-child(3n){
+    color: aqua;
+} */
+
+/* div p:nth-child(2n+1){
+    color: aqua;
+} */
+/* div p:nth-child(2n-1){
+    color: aqua;
+} */
+
+div p:nth-last-child(1){
+    color: aqua;
+}
